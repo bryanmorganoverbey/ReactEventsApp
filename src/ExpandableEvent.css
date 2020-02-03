@@ -1,0 +1,26 @@
+.event-checkbox {
+    float: left;
+    width: 15%;
+}
+.event-name {
+    float: left;
+    margin: 0;
+    width: 70%;
+    text-align: center;
+}
+.event-line-2 {
+    display: inline-block
+}
+
+@media only screen and (max-width: 500px) {
+    .event-checkbox {
+        float: inherit;
+        left: inherit;
+    }
+  }
+
+@media only screen and (max-width: 350px) {
+    .event-name {
+        width: 100%;
+    }
+}
